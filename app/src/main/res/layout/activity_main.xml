@@ -24,8 +24,9 @@
                 android:id="@+id/but1"
                 android:layout_width="match_parent"
                 android:layout_height="171dp"
-                android:scaleType="fitCenter"
                 android:background="#FFFFFF"
+                android:contentDescription="@string/app_name"
+                android:scaleType="fitCenter"
                 app:srcCompat="@drawable/yeezy500"
                 tools:layout_editor_absoluteX="0dp"
                 tools:layout_editor_absoluteY="0dp" />
@@ -34,8 +35,9 @@
                 android:id="@+id/but2"
                 android:layout_width="match_parent"
                 android:layout_height="171dp"
-                android:scaleType="fitCenter"
                 android:background="#FFFFFF"
+                android:contentDescription="@string/app_name"
+                android:scaleType="fitCenter"
                 app:srcCompat="@drawable/aj1"
                 tools:layout_editor_absoluteX="0dp"
                 tools:layout_editor_absoluteY="0dp" />
@@ -44,19 +46,20 @@
                 android:id="@+id/but3"
                 android:layout_width="match_parent"
                 android:layout_height="171dp"
-                android:scaleType="fitCenter"
                 android:background="#FFFFFF"
+                android:contentDescription="@string/app_name"
+                android:scaleType="fitCenter"
                 app:srcCompat="@drawable/aj1union"
                 tools:layout_editor_absoluteX="0dp"
-                tools:layout_editor_absoluteY="0dp"
-                 />
+                tools:layout_editor_absoluteY="0dp" />
 
             <ImageButton
                 android:id="@+id/but4"
                 android:layout_width="match_parent"
                 android:layout_height="171dp"
-                android:scaleType="fitCenter"
                 android:background="#FFFFFF"
+                android:contentDescription="@string/app_name"
+                android:scaleType="fitCenter"
                 app:srcCompat="@drawable/concord"
                 tools:layout_editor_absoluteX="0dp"
                 tools:layout_editor_absoluteY="0dp" />
@@ -65,8 +68,9 @@
                 android:id="@+id/but5"
                 android:layout_width="match_parent"
                 android:layout_height="171dp"
-                android:scaleType="fitCenter"
                 android:background="#FFFFFF"
+                android:contentDescription="@string/app_name"
+                android:scaleType="fitCenter"
                 app:srcCompat="@drawable/salt"
                 tools:layout_editor_absoluteX="0dp"
                 tools:layout_editor_absoluteY="0dp" />
@@ -75,7 +79,10 @@
                 android:id="@+id/but6"
                 android:layout_width="match_parent"
                 android:layout_height="171dp"
-                app:srcCompat="@drawable/ajlogo"
+                android:background="#FFFFFF"
+                android:contentDescription="@string/app_name"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/pg25ps4"
                 tools:layout_editor_absoluteX="0dp"
                 tools:layout_editor_absoluteY="0dp" />
 
@@ -83,7 +90,10 @@
                 android:id="@+id/but7"
                 android:layout_width="match_parent"
                 android:layout_height="171dp"
-                app:srcCompat="@drawable/ajlogo"
+                android:background="#FFFFFF"
+                android:contentDescription="@string/app_name"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/travis"
                 tools:layout_editor_absoluteX="0dp"
                 tools:layout_editor_absoluteY="0dp" />
 
@@ -91,42 +101,126 @@
                 android:id="@+id/but8"
                 android:layout_width="match_parent"
                 android:layout_height="171dp"
-                app:srcCompat="@drawable/ajlogo"
+                android:background="#FFFFFF"
+                android:contentDescription="@string/app_name"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/taco"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="0dp" />
+
+            <ImageButton
+                android:id="@+id/but9"
+                android:layout_width="match_parent"
+                android:layout_height="171dp"
+                android:background="#FFFFFF"
+                android:contentDescription="@string/app_name"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/beluga350"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="0dp" />
+
+            <ImageButton
+                android:id="@+id/but10"
+                android:layout_width="match_parent"
+                android:layout_height="171dp"
+                android:background="#FFFFFF"
+                android:contentDescription="@string/app_name"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/af1supreme"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="0dp" />
+
+            <ImageButton
+                android:id="@+id/but11"
+                android:layout_width="match_parent"
+                android:layout_height="171dp"
+                android:background="#FFFFFF"
+                android:contentDescription="@string/app_name"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/notresale"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="0dp" />
+
+            <ImageButton
+                android:id="@+id/but12"
+                android:layout_width="match_parent"
+                android:layout_height="171dp"
+                android:background="#FFFFFF"
+                android:contentDescription="@string/app_name"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/vansoldskool"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="0dp" />
+
+            <ImageButton
+                android:id="@+id/but13"
+                android:layout_width="match_parent"
+                android:layout_height="171dp"
+                android:background="#FFFFFF"
+                android:contentDescription="@string/app_name"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/offwhite"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="0dp" />
+
+            <ImageButton
+                android:id="@+id/but14"
+                android:layout_width="match_parent"
+                android:layout_height="171dp"
+                android:background="#FFFFFF"
+                android:contentDescription="@string/app_name"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/zoomflyoffwhite"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="0dp" />
+
+            <ImageButton
+                android:id="@+id/but15"
+                android:layout_width="match_parent"
+                android:layout_height="171dp"
+                android:background="#FFFFFF"
+                android:contentDescription="@string/app_name"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/ultralboostog"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="0dp" />
+
+            <ImageButton
+                android:id="@+id/but16"
+                android:layout_width="match_parent"
+                android:layout_height="171dp"
+                android:background="#FFFFFF"
+                android:contentDescription="@string/app_name"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/aj12gymred"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="0dp" />
+
+            <ImageButton
+                android:id="@+id/but17"
+                android:layout_width="match_parent"
+                android:layout_height="171dp"
+                android:background="#FFFFFF"
+                android:contentDescription="@string/app_name"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/ajgreentoe"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="0dp" />
+
+            <ImageButton
+                android:id="@+id/but18"
+                android:layout_width="match_parent"
+                android:layout_height="171dp"
+                android:background="#FFFFFF"
+                android:contentDescription="@string/app_name"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/pg25ps4"
                 tools:layout_editor_absoluteX="0dp"
                 tools:layout_editor_absoluteY="0dp" />
 
         </LinearLayout>
 
     </ScrollView>
-
-    <android.support.constraint.ConstraintLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
-
-        <Button
-            android:id="@+id/button2"
-            style="@style/Widget.AppCompat.Button.Colored"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="8dp"
-            android:layout_marginLeft="8dp"
-            android:layout_marginTop="8dp"
-            android:layout_marginEnd="8dp"
-            android:layout_marginRight="8dp"
-            android:layout_marginBottom="8dp"
-            android:background="@color/colorAccent"
-            android:text="Shopping online"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="1.0"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="1.0" />
-    </android.support.constraint.ConstraintLayout>
 
 
 </android.support.constraint.ConstraintLayout>
