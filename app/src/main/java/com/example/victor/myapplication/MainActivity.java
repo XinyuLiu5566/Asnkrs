@@ -19,6 +19,18 @@ public class MainActivity extends AppCompatActivity {
     private ImageButton but6;
     private ImageButton but7;
     private ImageButton but8;
+    private ImageButton but9;
+    private ImageButton but10;
+    private ImageButton but11;
+    private ImageButton but12;
+    private ImageButton but13;
+    private ImageButton but14;
+    private ImageButton but15;
+    private ImageButton but16;
+    private ImageButton but17;
+    private ImageButton but18;
+
+
 
 
     @Override
@@ -98,5 +110,99 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
+        but9 = findViewById(R.id.but9);
+        but9.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, Main10Activity.class);
+                startActivity(intent);
+            }
+        });
+
+        but10 = findViewById(R.id.but10);
+        but10.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, Main11Activity.class);
+                startActivity(intent);
+            }
+        });
+
+        but11 = findViewById(R.id.but11);
+        but11.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, Main12Activity.class);
+                startActivity(intent);
+            }
+        });
+
+        but12 = findViewById(R.id.but12);
+        but12.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, Main13Activity.class);
+                startActivity(intent);
+            }
+        });
+
+        but13 = findViewById(R.id.but13);
+        but13.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, Main14Activity.class);
+                startActivity(intent);
+            }
+        });
+
+        but14 = findViewById(R.id.but14);
+        but14.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, Main15Activity.class);
+                startActivity(intent);
+            }
+        });
+
+        but15 = findViewById(R.id.but15);
+        but15.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, Main16Activity.class);
+                startActivity(intent);
+            }
+        });
+
+        but16 = findViewById(R.id.but16);
+        but16.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, Main17Activity.class);
+                startActivity(intent);
+            }
+        });
+
+        but17 = findViewById(R.id.but17);
+        but17.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, Main18Activity.class);
+                startActivity(intent);
+            }
+        });
+
+        but18 = findViewById(R.id.but18);
+        but18.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, Main19Activity.class);
+                startActivity(intent);
+            }
+        });
+
+
+
+
     }
 }
