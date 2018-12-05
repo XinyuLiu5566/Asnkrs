@@ -5,23 +5,22 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Main3Activity">
-
     <ImageView
-        android:id="@+id/imageView3"
+        android:id="@+id/imageView2"
         android:layout_width="0dp"
-        android:layout_height="247dp"
-        android:layout_marginTop="32dp"
-        android:layout_marginBottom="260dp"
+        android:layout_height="240dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="250dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0"
-        app:srcCompat="@drawable/aj1union" />
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/aj1" />
 
     <TextView
-        android:id="@+id/textView31"
+        android:id="@+id/textView21"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
@@ -39,7 +38,7 @@
         app:layout_constraintVertical_bias="0.56" />
 
     <TextView
-        android:id="@+id/textView32"
+        android:id="@+id/textView22"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
@@ -57,7 +56,7 @@
         app:layout_constraintVertical_bias="0.85" />
 
     <TextView
-        android:id="@+id/textView33"
+        android:id="@+id/textView23"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
@@ -75,7 +74,7 @@
         app:layout_constraintVertical_bias="0.7" />
 
     <TextView
-        android:id="@+id/textView34"
+        android:id="@+id/textView24"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
@@ -84,16 +83,16 @@
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
         android:layout_marginBottom="8dp"
-        android:text="      Jordan 1 Union \nLos Angeles Black Toe"
+        android:text="Jordan 1 Rookie of the Year"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.85"
+        app:layout_constraintHorizontal_bias="0.9"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.7" />
 
     <TextView
-        android:id="@+id/textView35"
+        android:id="@+id/textView25"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
@@ -102,7 +101,7 @@
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
         android:layout_marginBottom="8dp"
-        android:text="$190"
+        android:text="$160"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.73"
@@ -111,7 +110,7 @@
         app:layout_constraintVertical_bias="0.56" />
 
     <TextView
-        android:id="@+id/textView36"
+        android:id="@+id/textView26"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
