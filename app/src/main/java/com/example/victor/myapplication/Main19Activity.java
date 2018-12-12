@@ -16,7 +16,7 @@ public class Main19Activity extends AppCompatActivity {
     }
 
     public void browser18 (View view) {
-        Intent browserIntent = new Intent(Intent.ACTION_VIEW,Uri.parse("https://stockx.com/nike-air-force-1-low-supreme-x-comme-des-garcons-2018"));
+        Intent browserIntent = new Intent(Intent.ACTION_VIEW,Uri.parse("https://stockx.com/air-jordan-3-retro-black-cement-2018"));
         startActivity(browserIntent);
     }
 }
