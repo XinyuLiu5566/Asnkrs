@@ -29,6 +29,7 @@ public class MainActivity extends AppCompatActivity {
     private ImageButton but16;
     private ImageButton but17;
     private ImageButton but18;
+    private Button webview;
 
 
 
@@ -46,6 +47,16 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
+        webview = findViewById(R.id.webview);
+        webview.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, Main20Activity.class);
+                startActivity(intent);
+            }
+        });
+
 
 
         but2 = findViewById(R.id.but2);
