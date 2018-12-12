@@ -1,7 +1,10 @@
 package com.example.victor.myapplication;
 
+import android.content.Intent;
+import android.net.Uri;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.View;
 import android.webkit.WebView;
 
 public class Main19Activity extends AppCompatActivity {
@@ -10,5 +13,10 @@ public class Main19Activity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main19);
+    }
+
+    public void browser18 (View view) {
+        Intent browserIntent = new Intent(Intent.ACTION_VIEW,Uri.parse("https://stockx.com/nike-air-force-1-low-supreme-x-comme-des-garcons-2018"));
+        startActivity(browserIntent);
     }
 }
